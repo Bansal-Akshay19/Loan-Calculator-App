@@ -33,11 +33,11 @@ function calcRes(){
 
         document.getElementById("results").style.display="block";
 
-        document.getElementById("loading").style.display="none";
     }
     else{
         showError('Please Check your numbers');
     }
+     document.getElementById("loading").style.display="none";
 
 }
 
